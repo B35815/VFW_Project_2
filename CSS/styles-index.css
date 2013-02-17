@@ -1,0 +1,65 @@
+/*
+Ricardo Aviles
+VFW 1302
+Project 2
+02/17/2013
+*/
+
+html {
+    background-color: #d4af37;
+}
+
+h1 {
+    font-family: "Helvetica", "Arial";
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    padding: 0.75em;
+    margin: 0.25em -0.75em 0.75em -0.75em;
+}
+
+h2 {
+    font-family: "Helvetica", "Arial";
+    color: #4b5151;
+    font-size: 150%;
+    text-align: center;
+    padding: 1em;
+    margin: -1em -1em -0.75em -1em;
+}
+
+h1 + h2 {
+    margin-top: -1em;
+    padding-top: 0;
+}
+
+body {
+    margin: 0.5em auto;
+    padding: 0.5em;
+    color: #000;
+    max-width: device-width;
+    max-height: device-height;
+    border: 0.5em white;
+    line-height: 1.5em;
+    position: inherit;
+}
+
+a {
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: table;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #9fc0c4 100%);
+    color: #6f7879;
+    font-size: 130%;
+    padding: 15px 10%;
+    margin: auto;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 1px #000;
+    text-shadow: 0 -1px 0 #000;
+}
+a:hover {
+    text-decoration: underline; color: #ccd5cf;
+    border: 1px solid #4f9de2;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #83f4ab 100%);
+}
+

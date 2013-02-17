@@ -1,0 +1,112 @@
+/*
+Ricardo Aviles
+VFW 1302
+Project 2
+02/17/2013
+*/
+
+html {
+    background-color: #d4af37;
+}
+
+h1 {
+    font-family: "Helvetica", "Arial";
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    padding: 0.75em;
+    margin: 0.25em -0.75em 0.75em -0.75em;
+}
+
+body {
+    font-family: "Helvetica", "Arial";
+    margin: 0.5em auto;
+    padding: 0.5em;
+    color: #4b5151;
+    max-width: 35em;
+    border: 0.5em white;
+    line-height: 1.5em;
+    position: inherit;
+}
+
+legend {
+    background-color: #c7f0f6;
+    border: 3px double #CCCCCC;
+    width: 250px;
+    padding: 10px -0.75px;
+    font-family: "Helvetica", "Arial";
+    font-size: 100%;
+}
+
+fieldset {
+    background-color: #fcf7da;
+    font-size: 125%;
+    border: 3px double #CCCCCC;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+input#importance {
+    -webkit-appearance: none;
+    background-color: #4b5151;
+    height: 8px;
+    width: 175px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+ 
+input#importance::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: relative;
+    width: 20px;
+    height: 30px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: solid 1px #b1edf9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#68d4ea), to(#23a0b9));
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    border: 1px solid #4b5151;
+    padding: 5px;
+    font-family: "Helvetica", "Arial";
+    font-size: 100%;
+}
+
+input#submit {
+    font-family: "Helvetica", "Arial", sans-serif;
+    display: table;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #9fc0c4 100%);
+    color: #6f7879;
+    font-size: 150%;
+    padding: 10px 10%;
+    margin: auto;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 1px #000;
+    text-shadow: 0 -1px 0 #000;
+}
+
+a:hover {
+    text-decoration: underline; color: red;
+}
+
+input:hover {
+    border: 3px double #4f9de2;
+    background: #fff;
+}
+
+textarea:hover {
+    border: 3px double #4f9de2;
+    background: #fff;
+}
+
+input#submit:hover {
+    text-decoration: underline; color: #ccd5cf;
+    border: 1px solid #4f9de2;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #83f4ab 100%);
+}
